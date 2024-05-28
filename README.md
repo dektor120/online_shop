@@ -12,5 +12,5 @@
 
 Дополнительно прикреплена копия базы данных, которая использовалась для выполнения данных запросов.
 Для восстановления базы из архива tar можно воспользоваться одной из следующих команд:
--  psql -h localhost -U <username> -d online_shop < online_shop.tar
--  pg_restore -U <username> -d online_shop 'путь к файлу online_shop.tar'
+-  psql -h localhost -U 'username' -d online_shop < online_shop.tar
+-  pg_restore -U 'username' -d online_shop 'путь к файлу online_shop.tar'
